@@ -1,0 +1,13 @@
+[
+	{
+		"name": "DotHome",
+		"host": "junhowdkdk.dothome.co.kr",
+		"port": 21,
+		"type": "ftp",
+		"username": "junhowdkdk",
+		"password": "dbswnsgh10!",
+		"path": "/",
+		"autosave": true,
+		"confirm": true
+	}
+]
