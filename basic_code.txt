@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="web Tutorial">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="inkwon">
+    <title>웹 프로그래밍 기초</title>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+    <!-- 익스터널 방식 : <link> 태그를 사용하여 외부 CSS 파일을 연동하는 방식 -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <br>
+    <a href = "https://www.naver.com" target = "_blank" title = "Naver">Naver</a>
+    <br>
+    <a href = "https://www.daum.net" target = "_self" title = "Daum">Daum</a>
+    <!-- _blank 는 새 창으로 열고 _self 는 현재창에서 이동해버린다. -->
+    <!-- default 는 _self 임 주의.-->
+    <br>
+    <br>
+    <img src = "image/kianu.jpg" width="300px" height="200px" alt="키아누">
+
+
+
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+    <!-- 사이즈선택  -->
+    <h1>type 선택자</h1>
+    <h2 id="bg">id 선택자</h2>
+    <h1>type 선택자</h1>
+    <h2 id="bg">id 선택자</h2>
+    <h3 class="size">class 선택자</h3>
+    <h1>hello world</h1>
+    <p><mark>사과</mark>는 사과나무의 열매로 세계적으로 널리 재배되는 과일 품종 중 하나이다.</p>
+    <!-- <ol>, <ul>, <li>순서를 맥이느냐, 앞에 점으로 표현하느냐. -->
+        <ol>
+            <li>순서가 있는 리스트(1)</li>
+            <li>순서가 있는 리스트(2)</li>
+            <li>순서가 있는 리스트(3)</li>
+        </ol>
+        <ul>
+            <li><a href="#">메뉴1</a></li>
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
+        </ul>
+    <input type="text" value="이름">
+    <input type="submit" value="제출">
+    <p>당신의 취미는 무엇입니까?</p> 
+    <input type="checkbox">영화감상
+    <input type="checkbox">사진
+    <input type="checkbox">운동
+    <!-- type 속성값 종류 URL https://www.w3schools.com/html/html_form_input_types.asp -->
+
+</body>
+<footer>
+    <p>what the <span style = "color :blueviolet;">fucking</span> hell</p>
+</footer>
+</html>
