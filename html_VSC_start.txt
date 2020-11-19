@@ -1,0 +1,21 @@
+[
+	{
+		"name": "DotHome",
+		"host": "junhowdkdk.dothome.co.kr",
+		"port": 21,
+		"type": "ftp",
+		"username": "junhowdkdk",
+		"password": "dbswnsgh10!",
+		"path": "/",
+		"autosave": true,
+		"confirm": true
+	}
+]
+
+editplus -> 무료 다운로드 후 설치 (평가판)
+1. 파일 - FTP - FTP 설정
+
+2. 설명 DOTHOME
+ FTP 서버등등위 참조.
+
+3. 고급 -> 포트번호 21
